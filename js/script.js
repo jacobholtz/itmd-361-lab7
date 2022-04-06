@@ -6,15 +6,7 @@ function init(){
 		outputtext.innerHTML = alerttext;	
 		alert("Jacob Holtz: " + alerttext);
 	}
-
 	var entrybutton = document.getElementById("entrybutton");
 	entrybutton.addEventListener("click", alertText);
-
-
-
-
-
-
-
-	window.addEventListener('load', init);
 }
+window.addEventListener('load', init);
